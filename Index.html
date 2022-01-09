@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+<!--Заголовок сайта-->
+    <title>Lemon</title>
+<!-- подключение иконки  -->
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- шрифт -->
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<!--поделючаем style css-->
+<link rel="stylesheet" href="styles.css">
+</head>
+  <body>
+<!--Заголовок страницы с учётом семантики-->
+<header>
+<h1 align="center" id="bootom">Lemon Shop</h1>
+</header>
+<hr>
+<!--2 закоголок с учётом семантики-->
+  <h4 align="center">При покупке 1 кг лимонов,1 лимон в подарок!</h4>
+
+
+<!-- блок текста  -->
+<blockquote>
+  <p align="center">
+Привет ты попал в магазин лимонов,если хотите купить лимоны пройдите
+по ссылке ниже,спасибо за покупку!
+  </p>
+</blockquote>
+<hr>
+
+<center><video width="800" height="600" autoplay="" controls loop>
+  <source src="nya.mp4" type="video/mp4">
+
+</video></center>
+
+<select name="java-navigator" onchange="top.location.href =
+  this.options[this.selectedIndex].value;" >
+<option selected value="#">Типы лимонов</option>
+<option value="https://agrognom.ru/fruits/lemon/vidy-limonov-kakie-byvayut-kak-opredelit-luchshie-sorta.html">Сливовидные</option>
+<option value="https://agrognom.ru/fruits/lemon/vidy-limonov-kakie-byvayut-kak-opredelit-luchshie-sorta.html">Грушевидные</option>
+<option value="https://agrognom.ru/fruits/lemon/vidy-limonov-kakie-byvayut-kak-opredelit-luchshie-sorta.html">Своя версия</option>
+</select>
+
+<!--Прогресс бар-->
+<form>
+  <progress name="prog" id="prog" value="30" max="100">10%</progress>
+</form>
+<!--Данный тег показывает сообщение при отсутствии поддержки скриптов браузером-->
+<noscript>
+Please switch on scripts in your browser!
+</noscript>
+
+
+<!--Текст с ссылкой на картинку Лимона,в жирной шрифте-->
+<center>
+<!--abbr тег показывающий расшифровку абривиатуры-->
+<abbr title="Лучшие Лимоны">ЛЛ</abbr>
+<p>
+<a href="https://cvet-dom.ru/wp-content/uploads/2017/07/3-20.jpg" target="_blank">
+<strong>
+  Сочный лимончик!
+</strong>
+</a>
+</p>
+</center>
+<hr>
+<!--Список с нумерацией в списке возможны атрибуты reversed(обратный список)
+а так же start="10" число с которого стартует список,ul точечный список,
+ol нумерованный,значение mark обозначает маркер,выделение текста жёлтым цветом-->
+  <ul>
+<li><strong><mark>Виды лимонов</mark></strong>
+  <ol>
+  <li>Овальные</li>
+  <li>Округлые</li>
+  <li>Грушевидные</li>
+<ul>
+<li>Гладкие</li>
+</ul>
+  <li>Каплевидные</li>
+</ol>
+</li>
+</ul>
+<hr>
+<!--Список с определениями,где dt определение
+ а dd обозначение определения-->
+<dt>Места выращивание</dt>
+<dd>Африка</dd>
+<dd>Южная Америка</dd>
+<hr>
+<!--Разные виды кнопок-->
+<button type="button">Лимон раз</button>
+<button type="sumbit" disabled>Лимон два</button>
+<button type="restet">Лимон три</button>
+<!--Кнопка с ссылкой и автофокусом,при заходе на страницу автоматически выбирает кнопку-->
+<a href="file:///C:/Users/Денис/Desktop/Project/Index2.html">
+  <button type="button"autofocus>Автоматический лимон</button>
+</a>
+<hr>
+<!--caption заголовок таблицы,tr ряд таблицы td столбец tbody тело таблицы,thead голова тоблицы
+tfoot конец таблицы.-->
+<table align="center">
+  <caption>Таблица лимонов</caption>
+<thead>
+</thead>
+  <tbody>
+    <tr>
+      <td>Таблица лимонов1</td>
+      <td>Таблица лимонов2</td>
+    </tr>
+    <tr>
+      <td>Таблица лимонов1</td>
+      <td>Таблица лимонов2</td>
+    </tr>
+    <tfoot>
+      <tr>
+        <td>
+        конец лимонам</td>
+      </tr>
+    </tfoot>
+  </tbody>
+</table>
+
+<!--Footer обозначает нижнюю неподвижную часть сайта для информации-->
+<!--Контейнер для изображений с атрибутами,figcaption дающий описание изображению-->
+<!--высота ширина в процентах width="30%" height="30%">-->
+<figure>
+  <center>
+    <a href="file:///C:/Users/Денис/Desktop/Project/Index2.html"><img src="lem.png" alt="Lemon png"
+      width="50%" height="50%">
+    </a>
+    <figcaption>
+    Нажми на лимон для покупки!</figcaption>
+</center>
+</figure>
+
+<!--Не работает кнопка для скачивания,решить-->
+<!--Открытие приложения дискорд-->
+<a href="discord:Kawaii#4108">Discord</a>
+
+<!--bootom отправляет к месту на странице обазначенному атрибутом id="bootom"-->
+<a href="#bootom">Перейти к покупке</a>
+
+<form action="formHandler.php" name="SimpForm">
+  <fieldset>
+    <legend>Легенда о лимоне </legend>
+    <label for="name">Имя</label>
+    <input type="text" id="name">
+    <br>
+    <label for="spec">Выберите вид</label>
+    <select id="spec">
+    <option value="">Кислые</option>
+    <option value="">Сладкие</option>
+    <option value="">Горькие</option>
+  </select>
+    <fieldset>
+      <legend>Персональное сообщение</legend>
+    <br>
+    <textarea id="message" name="text" rows="10" cols="50" placeholder="Ваше сообщение" maxlength="450" required></textarea>
+    <br>
+    </fieldset>
+    <input type="submit" id="message">
+<hr>
+<br>
+
+
+
+<footer>
+  <time datetime="2018-01-20"> <!--Тег означающий время-->
+  <em><center>Основана в</center></em>
+</time>
+<time><center>2018-01-20</center></time>
+</footer>
+<!-- подключение js  -->
+<script src="main.js"></script>
+  </body>
+</html>
